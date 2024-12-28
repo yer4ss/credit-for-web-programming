@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@700&display=swap');
+
+/* *{
+   outline: rgb(4, 255, 4) solid 3px !important;
+} */
+
+
+@media (max-width: 767px) {
+
+   li, a, p {
+      font-family: "Akshar", sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+      color: #fff;
+      line-height: 1.3;
+   }
+   h3 {
+      font-family: "Akshar", sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      color: #fff;
+   }
+   
+   h1, h2, h6, button {
+      font-family: "Akshar", sans-serif;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+      line-height: 1.3;
+   }
+   h1 {
+      font-size: 28px;
+      line-height: 1.3;
+   }
+   h2 {
+      font-size: 20px;
+      line-height: 1.2;
+      border-bottom: 4px solid red;
+      padding-bottom: 15px;
+   }
+   h6 {
+      font-size: 12px;
+   }
+   button {
+      font-size: 12px;
+   }
+
+
+   body {
+      width: 100vw;
+   }
+   
+   header {
+      width: 100vw;
+      background-color: #0E0E0E;
+   }
+   .head {
+      width: 100vw;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px;
+      margin: 0 auto;
+   }
+   .logo {
+      width: 30vw;
+      height: auto;
+   }
+   .nav {
+      display: none;
+   }
+   .nav_links2 {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+   }
+   .nav_links2 .but {
+      display: none;
+   }
+   .nav_links2 li {
+      width: 13vw;
+      height: auto;
+      display: inline-block;
+      padding: 0px 10px;
+   }
+   
+   
+   button {
+      padding: 12px 20px;
+      border: 4px solid red; /*рамка*/
+      transition: all 0.3s ease 0s;
+   
+      &:hover {
+         color: red;
+         background-color: #0E0E0E;
+      }
+   }
+   
+   .logo img, .logo svg {
+      width: 132px;
+      height: auto;
+   }
+   .icons svg {
+      width: 40px;
+      height: 40px;
+   }
+   
+   
+   .main {
+      width: 100vw;
+      height: 540px;
+      background-image: url(pictures/фон\ главного\ баннера4\ 1.png);
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+   }
+   .main h1{
+      font-size: 28px;
+   }
+   .headerSection {
+      width: auto;
+      height: auto;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 52px;
+   }
+   
+   .sec1 {
+      width: auto;
+      height: auto;
+      background-color: #0E0E0E;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .div1 {
+      width: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+   }
+   .block1-1, .block1-2, .block1-3, .block1-4 {
+      width: 90vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 50px;
+      text-align: center;
+   
+      &:hover {
+         background-image: url(pictures/Rectangle\ 6.png);
+      }
+   }
+   
+   
+   .sec2 {
+      width: 100vw;
+      height: auto;
+      background-image: url(pictures/фон.png);
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+   }
+   .div2 {
+      width: 100vw;
+      height: auto;
+      margin: 0 auto;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+   }
+   .zagolovok2 {
+      display: flex;
+      margin: 30px;
+   }
+   .div2 h2, .div2 h3 {
+      color: #0E0E0E;
+   }
+   .h3zagolovok {
+      display: none;
+   }
+   
+   .blocki2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-column-gap: 24px;
+      grid-row-gap: 24px;
+   }
+   .blocki2-1, .blocki2-2, .blocki2-3{
+      width: 300px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+   }
+   .blocki2-4, .blocki2-5, .blocki2-6 {
+      display: none;
+   }
+   .blocki2-1 {
+      background-image: url(pictures/B2B_KeyVisual_Shooting_2892_Batteriewechsel2\ 1.png);
+   }
+   .blocki2-2 {
+      background-image: url(pictures/Engine-Maintenance-Oil-Change\ 1.png);
+   }
+   .blocki2-3 {
+      background-image: url(pictures/268463-1506198528-9ed9b84faa459632f559365b4185f3cf\ 1.png);
+   }
+   .blocki2-4 {
+      background-image: url(pictures/6qjwc9yzxxmqe_1f6q75z2\ 1.png);
+   }
+   .blocki2-5 {
+      background-image: url(pictures/dvig\ 1.png);
+   }
+   .blocki2-6 {
+      background-image: url(pictures/full_843IMJ5N\ 1.png);
+   }
+   .textBut {
+      width: 300px;
+      height: 300px;
+      
+   }
+   .textBut button  {
+      margin-top: 20px;
+   }
+   .textBut h3 {
+      color: #fff;
+   }
+   
+   
+   
+   .sec3 {
+      width: 100vw;
+      height: auto;
+      background-image: url(pictures/topoboi.png);
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+   }
+   .div3 {
+      width: 100vw;
+      height: 768px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+   }
+   .zagolovok3 h3 {
+      display: none;
+   }
+   .blocki3 {
+      width: 100vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .blocki3 img {
+      width: 20vw;
+      height: 20vh;
+   }
+   .text3 {
+      text-align: start;
+      width: 100%;
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 21px;
+   }
+   .blocki3-1, .blocki3-2, .blocki3-3 {
+      width: 100vw;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 40px 60px 40px 40px;
+   
+      &:hover {
+         transition: all 0.3s ease 0s;
+         background-image: url(pictures/Rectangle\ 47.png);
+      }
+   }
+   
+   
+   .sec4 {
+      width: 100vw;
+      height: 500px;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pictures/porsche-normal\ 1.png);
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+   }
+   .div4{
+      width: 100vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+   }
+   .bloki4-1 {
+      width: 100%;
+      height: 347px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .bloki4-1 img {
+      display: none;
+   }
+   .blocki4-1-1 {
+      width: 90vw;
+      height: 40vh;
+      padding: 32px;
+      border: 4px solid red;
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: start;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-between;
+   }
+   
+   
+   .sec5 {
+      width: 100vw;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #EDEDED;
+   }
+   .div5 {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+   }
+   .div5 h2 {
+      color: #0E0E0E;
+   }
+   .div5 p {
+      font-size: 12px;
+   }
+   .div5 button {
+      color: red;
+   }
+   .blocki5 {
+      width: 80vw;
+      height: 360px;
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      align-items: center;
+   }
+   .text5 {
+      width: 360px;
+      height: 138px;
+      padding: 12px 20px 40px 12px;
+      text-align: start;
+      background-color: #0E0E0E;
+   }
+   .text5 p {
+      color: red;
+   }
+   .img5 {
+      object-fit: cover;
+      transition: transform 0.5s ease; /* Плавный эффект при наведении */
+   }
+   .blocki5-1 {
+      width: 360px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      box-shadow: -10px 10px 15px -10px #010;
+      overflow: hidden;
+   
+      &:hover {
+         transition: all 0.3s ease 0s;
+         box-shadow: -10px 5px 10px -5px red;
+      }
+   }
+   .blocki5-1:hover .img5, .blocki5-2:hover .img5, .blocki5-3:hover .img5 {
+      transform: scale(1.05);
+   }
+   .blocki5-2, .blocki5-3{
+      display: none;
+   }
+   
+
+   .sec6 {
+      width: 100vw;
+      height: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+   }
+   .div6 {
+      width: 100vw;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: relative;
+   }
+   .div6 button {
+      display: none;
+   }
+   .img6 {
+      width: 100vw;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+   }
+   .img6-1 {
+      width: 70px;
+      height: auto;
+   }
+   .but6 {
+      border: 4px solid red;
+      color: red;
+      font-size: 24px;
+      width: 52px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   
+      &:hover {
+         background-color: #0E0E0E;
+         color: red;
+      }
+   }
+   
+   
+   .foot p {
+      color: #4F4F4F;
+      font-size: 12px;
+   }
+   footer{
+      width: 100vw;
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-image: url(pictures/Group\ 45.png);
+      background-size: cover;
+   }
+   .foot {
+      width: 100vw;
+      height: auto;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      padding: 20px;
+   }
+   .foot1 {
+      width: 100px;
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+   }
+   .foot1 p {
+      font-size: 8px;
+   }
+   .foot2 {
+      width: 30vw;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: space-between;
+      text-align: center;
+   }
+   .foot h6 {
+      font-size: 8px;
+   }
+   .nav6 {
+      display: none;
+   }
+   .foot2 a {
+      font-size: 8px;
+   }
+   .foot3 {
+      width: 100px;
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+   }
+   .foot button {
+      padding: 5px 8px;
+      border: 2px solid red;
+      font-size: 8px;
+   }
+   .foot3 h6 {
+      text-transform: lowercase;
+   }
+   .foot3-1, .foot3-2 {
+      width: 100px;
+      height: 24px;  
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+   }
+   .footIcon {
+      width: 10px;
+      height: auto;
+   }
+   
+
+   }
+
+
+
+
+
+
+
+
+
+
